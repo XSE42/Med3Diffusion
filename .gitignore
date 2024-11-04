@@ -1,0 +1,6 @@
+data/
+outputs*
+results/
+samples/
+
+*__pycache__/
