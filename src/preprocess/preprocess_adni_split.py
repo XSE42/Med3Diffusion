@@ -54,20 +54,14 @@ def split_metadata(meta, train_ratio, val_ratio):
     train_meta = {
         "scan_list": train_scan_list,
         "sub_list": train_sub_list,
-        "rid_sub_map": meta["rid_sub_map"],
-        "sub_gend_map": meta["sub_gend_map"],
     }
     val_meta = {
         "scan_list": val_scan_list,
         "sub_list": val_sub_list,
-        "rid_sub_map": meta["rid_sub_map"],
-        "sub_gend_map": meta["sub_gend_map"],
     }
     test_meta = {
         "scan_list": test_scan_list,
         "sub_list": test_sub_list,
-        "rid_sub_map": meta["rid_sub_map"],
-        "sub_gend_map": meta["sub_gend_map"],
     }
     print("Training set scan num: {}".format(len(train_scan_list)))
     print("Validation set scan num: {}".format(len(val_scan_list)))
